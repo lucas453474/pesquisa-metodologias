@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:"Roboto Slab", serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a3a3a3;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    background-color: #192841;
+    color: #a3a3a3;
+   
+}
+
+#textos-pesquisa{
+    display: flex;
+    /* margin-left: 300px; */
+    text-transform: uppercase;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* align-items: center; */
+    color: #fff;
+    
+}
+#textos-pesquisa h3{
+    text-transform: initial;
+    
+}
+
+.conteudo-pesquisa{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 0 20px;
+}
+#texto-categorias{
+    color: #fff;
+}
+#negrito{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#texto-categorias h1{
+    text-transform: uppercase;
+}
+
+
+ 
